@@ -1,0 +1,69 @@
+* {
+    background-color: #74a12c;
+}
+
+h1 {
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.ingredients-table {
+    border-collapse: collapse;
+    margin: 20px;
+    background-color: rgba(192, 192, 192, 0.5);
+}
+
+.ingredients-table th,
+.ingredients-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.ingredients-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.ingredients-table td {
+    text-align: left;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+.list .ordered_li {
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 50px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.list .ordered_li::marker {
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
